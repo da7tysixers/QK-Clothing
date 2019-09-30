@@ -1,4 +1,17 @@
-#title {
-    color: red;
-    background: pink;
+.container {
+    text-decoration-color: black;
+    background: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    display: inline;
+    padding: 0px;
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    color: white;
 }
