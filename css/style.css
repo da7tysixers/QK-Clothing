@@ -13,7 +13,7 @@
 nav ul li {
     display: inline-block;
     list-style-type: none;
-    color: white;
+    color: black;
 }
 
 
@@ -35,4 +35,10 @@ nav ul li {
 
 .footerNewItems {
     text-align: right;
+}
+
+@media screen and (max-width: 992px) {
+    #main-navbar {
+        clear: both;
+    }
 }
