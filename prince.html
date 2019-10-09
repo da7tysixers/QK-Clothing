@@ -19,31 +19,27 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-faded">
-        <button class="navbar-toggler hidden-lg-up float-xs-right" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
-        <a class="navbar-brand" href="#">Tribute Page | Tupac Shakur</a>
-
-        <div class="collapse navbar-toggleable-md" id="main-navbar">
-            <ul class="nav navbar-nav float-lg-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#"><img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="QK-Clothing"></a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Bio</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Account/Login</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Details</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Awards</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">More info</a>
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">Account/Login</a>
                 </li>
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
     <header>
@@ -54,11 +50,11 @@
             <nav>
                 <ul>
 
-                    <li><a href="newRelease.html">New Release</a></li>
-                    <li><a href="queen.html">Queens</a></li>
-                    <li><a href="king.html">Kings</a></li>
-                    <li><a href="Princess.html">Prince</a></li>
-                    <li><a href="Prince.html">Princess</a></li>
+                    <li class=" nav-item"><a class="nav-link " href="newRelease.html ">New Release</a></li>
+                    <li class="nav-item active "><a class="nav-link " href="queen.html "><strong>Queens</strong></a></li>
+                    <li class="nav-item active "><a class="nav-link " href="king.html ">Kings</a></li>
+                    <li class="nav-item active "><a class="nav-link " href="Princess.html ">Prince</a></li>
+                    <li class="nav-item active "><a class="nav-link " href="Prince.html ">Princess</a></li>
 
 
                 </ul>
@@ -68,132 +64,54 @@
             <hr>
         </div>
     </header>
-    <!-- Footer -->
-    <footer class="page-footer font-small mdb-color lighten-3 pt-4 p-3 mb-2 bg-dark ">
-
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left">
-
-            <!-- Grid row -->
-            <div class="row">
-
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
-
-                    <!-- Content -->
-                    <h5 class="font-weight-bold text-uppercase mb-4">Footer Content</h5>
-                    <p>Here you can use rows and columns to organize your footer content.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum.</p>
-
-                </div>
-                <!-- Grid column -->
-
-                <hr class="clearfix w-100 d-md-none">
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
-
-                    <!-- Links -->
-                    <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <p>
-                                <a href="#!">PROJECTS</a>
-                            </p>
+    <footer id="footer "></footer>
+    <div class="footer-top ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-3 col-nd-6 footer-info ">
+                    <h3>QK-Clothings</h3>
+                    <p>QK-Clothing is an African American clothing line that specailize in sharing african culture around the world through fashion and design</p>
+                    <ul class="list-unstyled list-inline text-center py-2 ">
+                        <li class="list-inline-item ">
+                            <h5 class="mb-1 ">Register</h5>
                         </li>
-                        <li>
-                            <p>
-                                <a href="#!">ABOUT US</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="#!">BLOG</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="#!">AWARDS</a>
-                            </p>
+                        <li class="list-inline-item ">
+                            <a href="#! " class="btn btn-danger btn-rounded ">Sign up!</a>
                         </li>
                     </ul>
-
                 </div>
-                <!-- Grid column -->
-
-                <hr class="clearfix w-100 d-md-none">
-
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
-
-                    <!-- Contact details -->
-                    <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <p>
-                                <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                        </li>
-                        <li>
-                            <p>
-                                <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                        </li>
-                        <li>
-                            <p>
-                                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                        </li>
-                        <li>
-                            <p>
-                                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-                        </li>
+                <div class="col-lg-3 col-nd-6 footer-links ">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="ion-ios-arrow-right "></i><a href="# ">Home</a></li>
+                        <li><i class="ion-ios-arrow-right "></i><a href="# ">News</a></li>
+                        <li><i class="ion-ios-arrow-right "></i><a href="# ">Careers</a></li>
+                        <li><i class="ion-ios-arrow-right "></i><a href="# ">Investors</a></li>
+                        <li><i class="ion-ios-arrow-right "></i><a href="# ">Charity Support</a></li>
+                        <li><i class="ion-ios-arrow-right "></i><a href="# ">Contact Us</a></li>
                     </ul>
-
                 </div>
-                <!-- Grid column -->
-
-                <hr class="clearfix w-100 d-md-none">
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
-
-                    <!-- Social buttons -->
-                    <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
-
-                    <!-- Facebook -->
-                    <a type="button" class="btn-floating btn-fb">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <!-- Twitter -->
-                    <a type="button" class="btn-floating btn-tw">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <!-- Google +-->
-                    <a type="button" class="btn-floating btn-gplus">
-                        <i class="fab fa-google-plus-g"></i>
-                    </a>
-                    <!-- Dribbble -->
-                    <a type="button" class="btn-floating btn-dribbble">
-                        <i class="fab fa-dribbble"></i>
-                    </a>
-
+                <div class="col-lg-3 col-nd-6 footer-contact ">
+                    <h4>Follow Us</h4>
+                    <a href="# " class="twitter "><i class="fa fa-twitter "></i></a>
+                    <a href="# " class="facebook "><i class="fa fa-facebook "></i></a>
+                    <a href="# " class="instagram "><i class="fa fa-instagram "></i></a>
+                    <a href="# " class="linkedin "><i class="fa fa-linkedin "></i></a>
+                    <a href="# " class="google-plusr "><i class="fa fa-google-plus "></i></a>
                 </div>
-                <!-- Grid column -->
-
+                <div class="col-lg-3 col-nd-6 footer-newsletter ">
+                    <h4>Our Newsletter</h4>
+                    <p>Signup to receive latest news and most recent trending fashion style in Africa</p>
+                    <form action=" " method="post ">
+                        <input type="email " name="email ">
+                        <a href="#! " class="btn btn-danger btn-rounded ">SubScribe</a>
+                    </form>
+                </div>
             </div>
-            <!-- Grid row -->
-
         </div>
-        <!-- Footer Links -->
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
-
+    </div>
+    <p class="copyright text-muted ">Copyright &copy;QK-Clothings Inc 2019.</p>
     </footer>
-    <!-- Footer -->
 </body>
 
 </html>
